@@ -13,7 +13,7 @@ void addRowToPosition(int**& array, int& numRows, int numCols, int* newRow, int 
         }
     }
 
-    newArray[position] = newRow;
+   newArray[position] = newRow;
 
     for (int i = position + 1; i < newNumRows; ++i) {
         newArray[i] = new int[numCols];
